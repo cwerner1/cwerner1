@@ -30,13 +30,13 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -410,7 +410,6 @@
                 </h2>
                 <div class="row">
                     <section class="people">
-                        <img class="avatar" src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAcABwDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAwUGBAII/8QAKhAAAQMDAwMDBAMAAAAAAAAAAQIDBAURIQASMRMiQQZRYRQVcZHB0fD/xAAYAQEAAwEAAAAAAAAAAAAAAAAFAAMGB//EACIRAAEEAQMFAQAAAAAAAAAAAAEAAgMRBAUxQRIhYXGB0f/aAAwDAQACEQMRAD8A8+U+XKgzOpT3A2tdhnznzfxpm3NX148mRIt3byAi+088YvqlFPoqA2tbMdF0ixWvJ45uTokWDCEuEpTTZD6iEshIJ6Yt74zn9a6NHiZDBTj8SkmlyBoHUPVnn9SqkTXXgy49TnX027FhaUWN8G5ScfAt+dUUZa+gj6mH1HM5CEkAX450SJFbhuuxYyXFobUChKbXAPj/AHvrBImT+p2R0JTbAVJbv/GkY4nEW51paHTMfHYDkWb8cj0l0muCpqn1GVGjBpIQhEZoENg8Yubg/PzpdTK1Jdqocjw3XnAFdNpm5CAEkmwycAfq+uXn3XqAwlxZKHHUqUkYBOc40OnUxCi26h+Q05ttdtQHN0nx7Y0NlZz4nUNgs0ZXwtaQe+/3yqX0d6kajV5CpEdAiSmrJ23Pfxuz8341ipdIi1RMqQ59wID60ILLG8bRxm/Op+FIMXalLaVkYSpZUSj8ZxoT0l6O4ptpSUoHjYn+tVDUiWBwuyoMpjQA+yv/2Q==" width="28" height="28" alt="" />
                         <img class="avatar" src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAcABwDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABwUEAAb/xAAyEAABAwIDBAcIAwAAAAAAAAABAgMEABEFEiEGMUFRBxMiIzKBkRQVJEJhYnGhwcLR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKsp5LTdzuO6uTsfBx2K/MXNxGLLSAA8zMGS9tbIB08+dbMWEfDIbszEWIEKI1qTcDTySd9G2zm2L2Lpx98qbh4dDuElokEpN7Fwn8chQIsGUYrMduWsuutgIddSm2e2l/2PWrUXFYbTIQ+73gJJ0PE3/mhLoP2sU257inPPOtun4RSjcNkXKxz13+VLWISEdcnORmyC9AXdN+1ImohYd3uRDhfcSTodOx/eiyS7Bdw1qOzHAl9cXHX1W8HyAceZN/pVbpPWsbYTFdYsqSpuxJ+wVBZUFtpzoSrMq5uKDWy6GMQjuwFPNlCQSSq5QrmCAKX4m1DL8OO5NWsvlsZjbxHifW9C8Vse0u2KhkPZsd1e0iQUKjtlTjhNuNv8oP/Z" width="28" height="28" alt="" />
                         <img class="avatar" src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAcABwDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgcEBf/EACwQAAIBAwMDAwEJAAAAAAAAAAEDAgQFEQAGIRITMUFRYRQVIiNCUnGBobH/xAAYAQACAwAAAAAAAAAAAAAAAAADBQABBP/EABwRAAEEAwEAAAAAAAAAAAAAAAEAAgMREiEiBP/aAAwDAQACEQMRAD8Azb7vtWrb9ULfSrbGY6JJI4MfzZA5PH+6n1y3xfKOkpZ3K20wFWssHbzA4zjkeh9dMN701TROp1UBNRUtYSVrVKYEOcdc+fXHHGp2mVYhrzVTUVOJnIkeD8aRQNbh0LTwl18khc+3Vs4b4t9YhDUrc5fdiOMiR58e+rfUWm1TaZP7jZnzKcp8/t8aitrr41u46JE+iKI1i59z1IBH9arjaqcWyH0lTLB89uWp6751WkKKrO7XLrLinHdq1tL2joDeoEQ5PjHjUrrBFFxqVY61hhA+OdPrO/7Wu0U1K4Rh1GX3TInPSf1E6MXRaxuJX4cTFkwJRI4OYjV+c1aLK0ZaRWaJIuBBljHJwffS9G7nLWIvpqR7PVjVdUj/ADo5uFcU3Z61jEIkAD2GNYCedb8BK0Epe5xieQF//9k=" width="28" height="28" alt="" />
                         <img class="avatar" src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAcABwDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgUHAf/EACwQAAEDAwIFAwMFAAAAAAAAAAECAwQABREGIQcSEzFBFGFxIlHBI1KRsdH/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAQP/xAAcEQACAwADAQAAAAAAAAAAAAABAgADBBESITH/2gAMAwEAAhEDEQA/ABE1o2uOw6VIW09klQyCSANiPk4oTbb3qS4SSIM6a2gOFxtuM4W0NnPjFb22vSF405p43iNc5s+Stzr+nWlayoHfPY7lYwfY/agul7axY7ncXorDogLecbbbeThwN8+UA++wzQHcUKXWOxZjrsCH5Jk+4atuEGGdUuypESOotNPPd8nfBX3V2O5rnqyUpHV2SOUbeKU8QLg2/At8OK84X+YOdIj6CkAjPyM/3RiIy8thJyaMulrR2MuzJXmtNaTceFVht8ed122GP1BhRCfr28Uo1bo6DKuCp7jKDDOVSGwcZV4O3g7ZopwlfcU6tJOyV7VovEB9yPpiYto4Vyf6fxSdXV7hWR4OJK7LMyhkP0GYnfdI2hwtSIi3DkdMNKdyQPYnx81Pes0VC8KbdScAYz9hj8VLtUdMq+R2VrcQn9yFYV/NUbROkojupLy18rqxzLOT3rJlRzyo4m1dbXL2Y+z/2Q==" width="28" height="28" alt="" />
@@ -465,7 +464,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 14 Aug 2024, 05:12:38 (timezone Europe/Vienna) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 15 Aug 2024, 05:12:25 (timezone Europe/Vienna) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
