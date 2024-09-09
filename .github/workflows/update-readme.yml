@@ -58,6 +58,6 @@ jobs:
           # plugin_tweets: yes
           # plugin_tweets_limit: 3
           # plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
-          delay: 120
+          delay: 10
           plugins_errors_fatal: yes
 
