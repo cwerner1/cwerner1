@@ -21,9 +21,10 @@ jobs:
 
           # Options
           user: cwerner1
-          template: classic
-          base: header, activity, community, repositories, metadata
-          #config_animated: yes
+          template: classic 
+          base: header, activity, community, repositories, metadata,
+          base_hireable: yes
+          config_animated: yes
           config_timezone: Europe/Vienna
           # plugin_activity: yes
           # plugin_activity_days: 14
@@ -34,6 +35,9 @@ jobs:
           plugin_followup: yes
           # plugin_traffic: yes # looks like this one doesn't like my token
           plugin_lines: yes
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
           plugin_topics: yes
           # plugin_topics_sort: stars
           plugin_topics_mode: mastered
@@ -55,3 +59,6 @@ jobs:
           # plugin_tweets: yes
           # plugin_tweets_limit: 3
           # plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
+          delay: 120
+          plugins_errors_fatal: yes
+
