@@ -24,7 +24,6 @@ jobs:
           template: classic 
           base: header, activity, community, repositories, metadata,
           base_hireable: yes
-          config_animated: yes
           config_timezone: Europe/Vienna
           # plugin_activity: yes
           # plugin_activity_days: 14
